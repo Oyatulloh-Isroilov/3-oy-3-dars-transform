@@ -171,13 +171,14 @@
     transition: 3s;
 }
 
-.col-column-1 h1 {
+.col-column-1 a {
+    text-decoration: none;
     position: absolute;
     cursor: pointer;
     bottom: 28px;
 }
 
-.container-3 .col-column-1 h1:hover {
+.container-3 .col-column-1 a:hover {
     transition: 2.7s;
     transform: rotate(360deg);
     border: 3px solid black;
